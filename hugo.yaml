@@ -21,7 +21,7 @@ services:
         id:
 
 pagination:
-    pagerSize: 3
+    pagerSize: 5
 
 permalinks:
     post: /p/:slug/
@@ -147,13 +147,13 @@ params:
             - type: search
             - type: archives
               params:
-                  limit: 5
+                  limit: 3
             - type: categories
               params:
-                  limit: 10
+                  limit: 99
             - type: tag-cloud
               params:
-                  limit: 10
+                  limit: 99
         page:
             - type: toc
 
@@ -180,9 +180,9 @@ params:
 
     imageProcessing:
         cover:
-            enabled: true
+            enabled: false
         content:
-            enabled: true
+            enabled: false
 
 ### Custom menu
 ### See https://stack.jimmycai.com/config/menu
