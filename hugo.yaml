@@ -32,23 +32,23 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon: /favicon.ico # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2020
-        customText:
+        since: 2015
+        customText: This is Yumi’s blog where I share technology and life.
 
     dateFormat:
         published: Jan 02, 2006
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        #emoji: 🍥
+        subtitle: I love learning, and learning loves me! Learning makes me happy!
         avatar:
             enabled: true
             local: true
-            src: img/avatar.jpg
+            src: /avatar.jpg
 
     article:
         math: false
@@ -193,15 +193,15 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/chn-lee-yumi
           params:
               icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
-          params:
-              icon: brand-twitter
+        #- identifier: twitter
+        #  name: Twitter
+        #  url: https://twitter.com
+        #  params:
+        #      icon: brand-twitter
 
 related:
     includeNewer: true
