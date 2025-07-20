@@ -15,10 +15,10 @@ hasCJKLanguage: false
 services:
     # Change it to your Disqus shortname before using
     disqus:
-        shortname: "hugo-theme-stack"
+        shortname: "yumi-blog-1"
     # GA Tracking ID
     googleAnalytics:
-        id:
+        id: G-T831ZMKHWL
 
 pagination:
     pagerSize: 5
