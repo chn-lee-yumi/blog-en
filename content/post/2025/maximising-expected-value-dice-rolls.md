@@ -7,6 +7,7 @@ categories:
   - Learning
 tags:
   - Puzzle
+  - Probability
 math: true
 ---
 
