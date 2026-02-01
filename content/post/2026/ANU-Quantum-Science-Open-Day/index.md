@@ -104,6 +104,6 @@ At last, I got to enjoy some more liquid nitrogen ice cream.
 
 I recorded a video of the liquid nitrogen ice cream-making process.
 
-<video src="IMG_1534.webm" controls="controls" loop="loop" preload="auto"></video>
+<video src="IMG_1534.webm" controls="controls" loop="loop" preload="auto" width="90%"></video>
 
 Finally, I happily went home! It felt like my horizons had been greatly expanded today!
